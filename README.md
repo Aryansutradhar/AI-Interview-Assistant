@@ -1,10 +1,14 @@
+[![Live App](https://img.shields.io/badge/Streamlit-Live_App-red)](https://ai-interview-assistant-kvaozgetcd3xjwtnorws7b.streamlit.app/)
+
 # 🤖 AI Interview Assistant
+
+A smart interview preparation tool with AI integration and a built-in fallback system for real-world reliability.
+
+---
 
 ## 🌐 Live Demo
 
 [🚀 Click here to try the app](https://ai-interview-assistant-kvaozgetcd3xjwtnorws7b.streamlit.app/)
-
-An intelligent interview practice application built using Streamlit that helps users prepare for technical interviews with role-based questions and performance evaluation.
 
 ---
 
@@ -111,13 +115,14 @@ GEMINI_API_KEY = "your_api_key_here"
 
 ## 📸 Demo
 
-*(You can add screenshots here later for better presentation)*
+*(Add screenshots here later to make your GitHub even more impressive)*
 
 ---
 
 ## 👨‍💻 Author
 
-Made by Aryan 🚀
+**Aryansutradhar** 🚀
+Aspiring Software Developer
 
 ---
 
