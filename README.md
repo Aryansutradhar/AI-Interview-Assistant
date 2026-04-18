@@ -1,23 +1,41 @@
 # 🤖 AI Interview Assistant
 
-An AI-powered Interview Preparation Tool that generates role-based interview questions and evaluates user answers using NLP and Google Gemini API.
+## 🌐 Live Demo
+
+[🚀 Click here to try the app](https://ai-interview-assistant-kvaozgetcd3xjwtnorws7b.streamlit.app/)
+
+An intelligent interview practice application built using Streamlit that helps users prepare for technical interviews with role-based questions and performance evaluation.
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Features
 
-👉 https://ai-resume-analyzer-ejinc8tfhlorlo3mmw2szm.streamlit.app/
+* 🤖 AI-powered interview question generation (Gemini API)
+* 🔁 Smart fallback system when AI is unavailable
+* 🎯 Role-based interview (Python, Web Development, Data Science, Cloud)
+* 📊 Answer evaluation with scoring and feedback
+* 📈 Progress tracking with performance insights
+* 🧠 Beginner-friendly and interactive UI
 
 ---
 
-## ✨ Features
+## ⚠️ Reliability Feature (Key Highlight)
 
-* 🎯 Role-based interview questions (Python, Web Dev, Data Science, Cloud)
-* 📊 Difficulty levels (Easy, Medium, Hard)
-* 🤖 AI-generated questions using Gemini API
-* 🧠 Smart answer evaluation with feedback
-* 💡 Suggestions for improvement
-* ⚡ Built with an interactive Streamlit UI
+This application uses a **hybrid architecture**.
+
+If the AI API is unavailable due to:
+
+* quota limits
+* network issues
+* API restrictions
+
+👉 The system automatically switches to a **fallback question engine**
+
+This ensures:
+
+* ✅ No app crashes
+* ✅ Continuous user experience
+* ✅ Reliable performance
 
 ---
 
@@ -25,78 +43,90 @@ An AI-powered Interview Preparation Tool that generates role-based interview que
 
 * Python
 * Streamlit
-* Google Gemini API
-* NLP Concepts
+* Google Gemini API *(optional AI integration)*
 
 ---
 
-## ▶️ How to Run Locally
+## 📦 Installation
 
-1. Clone the repository:
+Clone the repository:
 
-```
+```bash
 git clone https://github.com/your-username/ai-interview-assistant.git
-```
-
-2. Navigate to project folder:
-
-```
 cd ai-interview-assistant
 ```
 
-3. Install dependencies:
+Install dependencies:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-4. Add your API key:
-   Create a `.streamlit/secrets.toml` file and add:
+Run the app:
 
-```
-GEMINI_API_KEY = "your_api_key_here"
-```
-
-5. Run the app:
-
-```
+```bash
 streamlit run app.py
 ```
 
 ---
 
-## 🔐 Environment Variables
+## 🔐 API Setup (Optional)
 
-* `GEMINI_API_KEY` → Required for AI functionality
+To enable AI features:
+
+1. Get API key from Google AI Studio
+2. Create a file:
+
+```
+.streamlit/secrets.toml
+```
+
+3. Add your API key:
+
+```toml
+GEMINI_API_KEY = "your_api_key_here"
+```
+
+👉 If not added, the app will automatically run in fallback mode.
 
 ---
 
-## 📸 Screenshots
+## 🎯 How It Works
 
-(Add your app screenshots here)
+1. Select your role and difficulty level
+2. Start the interview
+3. Answer the questions
+4. Receive instant feedback and score
+
+---
+
+## 💡 Project Highlights
+
+* Hybrid AI + rule-based system
+* Designed for real-world reliability
+* Handles API failures gracefully
+* Clean and interactive user interface
+
+---
+
+## 📸 Demo
+
+*(You can add screenshots here later for better presentation)*
 
 ---
 
 ## 👨‍💻 Author
 
-**Aryan Sutradhar** 🚀
+Made by Aryan 🚀
 
 ---
 
 ## ⭐ Future Improvements
 
-* 📄 Resume-based interview questions
-* 🎙️ Voice-based interview system
-* 📊 Performance analytics dashboard
-* 🌐 Multi-language support
-* 📁 PDF resume upload
+* Resume-based question generation
+* Advanced AI evaluation system
+* Voice-based interview interaction
+* Detailed analytics dashboard
 
 ---
 
-## 💡 About
-
-This project demonstrates practical implementation of AI in real-world applications using modern tools like Streamlit and Generative AI APIs.
-
----
-
-⭐ If you like this project, consider giving it a star!
