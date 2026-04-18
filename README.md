@@ -52,7 +52,7 @@ This ensures:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/ai-interview-assistant.git
+git clone https://github.com/aryansutradhar/ai-interview-assistant.git
 cd ai-interview-assistant
 ```
 
