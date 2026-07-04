@@ -2,44 +2,44 @@
 
 # 🤖 AI Interview Assistant
 
-A smart interview preparation tool with AI integration and a built-in fallback system for real-world reliability.
+A smart interview preparation platform built with Python and Streamlit that helps users practice technical interviews with automated evaluation and performance feedback.
 
 ---
 
 ## 🌐 Live Demo
 
-[🚀 Click here to try the app](https://ai-interview-assistant-kvaozgetcd3xjwtnorws7b.streamlit.app/)
+🚀 Try the application:
+
+https://ai-interview-assistant-kvaozgetcd3xjwtnorws7b.streamlit.app/
 
 ---
 
 ## 🚀 Features
 
-* 🤖 AI-powered interview question generation (Gemini API)
-* 🔁 Smart fallback system when AI is unavailable
-* 🎯 Role-based interview (Python, Web Development, Data Science, Cloud)
-* 📊 Answer evaluation with scoring and feedback
-* 📈 Progress tracking with performance insights
-* 🧠 Beginner-friendly and interactive UI
+* 🎯 Multiple job roles
+    * Python Developer
+    * Web Developer
+    * Data Scientist
+    * Cloud Engineer
 
----
+* 📚 Multiple difficulty levels
+    * Easy
+    * Medium
+    * Hard
 
-## ⚠️ Reliability Feature (Key Highlight)
+* 🎲 Randomized interview questions
 
-This application uses a **hybrid architecture**.
+* 📊 Automatic answer scoring
 
-If the AI API is unavailable due to:
+* 📈 Confidence score calculation
 
-* quota limits
-* network issues
-* API restrictions
+* 📌 Strengths and weaknesses analysis
 
-👉 The system automatically switches to a **fallback question engine**
+* 📝 Performance feedback system
 
-This ensures:
+* 📥 Download interview report (CSV)
 
-* ✅ No app crashes
-* ✅ Continuous user experience
-* ✅ Reliable performance
+* 🎈 Interactive UI experience
 
 ---
 
@@ -47,16 +47,17 @@ This ensures:
 
 * Python
 * Streamlit
-* Google Gemini API *(optional AI integration)*
+* Pandas
 
 ---
 
 ## 📦 Installation
 
-Clone the repository:
+Clone repository:
 
 ```bash
 git clone https://github.com/aryansutradhar/ai-interview-assistant.git
+
 cd ai-interview-assistant
 ```
 
@@ -66,7 +67,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the app:
+Run application:
 
 ```bash
 streamlit run app.py
@@ -74,64 +75,65 @@ streamlit run app.py
 
 ---
 
-## 🔐 API Setup (Optional)
+## 📂 Project Structure
 
-To enable AI features:
+```text
+AI_Interview_Assistant/
 
-1. Get API key from Google AI Studio
-2. Create a file:
-
+├── app.py
+├── requirements.txt
+├── README.md
 ```
-.streamlit/secrets.toml
-```
-
-3. Add your API key:
-
-```toml
-GEMINI_API_KEY = "your_api_key_here"
-```
-
-👉 If not added, the app will automatically run in fallback mode.
 
 ---
 
 ## 🎯 How It Works
 
-1. Select your role and difficulty level
-2. Start the interview
-3. Answer the questions
-4. Receive instant feedback and score
+1. Select a job role
+2. Select difficulty level
+3. Start interview
+4. Answer generated questions
+5. Submit answers
+6. Receive:
+
+   * Performance score
+   * Confidence percentage
+   * Strengths analysis
+   * Weakness analysis
+   * Interview report download
 
 ---
 
 ## 💡 Project Highlights
 
-* Hybrid AI + rule-based system
-* Designed for real-world reliability
-* Handles API failures gracefully
-* Clean and interactive user interface
+* Built with a modular structure
+* Random question generation
+* Rule-based answer evaluation
+* Performance analytics
+* User-friendly interface
+* Real-time feedback
 
 ---
 
-## 📸 Demo
+## 🔮 Future Improvements
 
-*(Add screenshots here later to make your GitHub even more impressive)*
+* Resume-based interview generation
+* Voice interview support
+* AI-generated personalized questions
+* Advanced NLP answer evaluation
+* Analytics dashboard
 
 ---
 
 ## 👨‍💻 Author
 
-**Aryansutradhar** 🚀
+**Aryan Sutradhar** 🚀
+
 Aspiring Software Developer
 
 ---
 
-## ⭐ Future Improvements
+## ⭐ If you like this project
 
-* Resume-based question generation
-* Advanced AI evaluation system
-* Voice-based interview interaction
-* Detailed analytics dashboard
-
----
+Give this repository a star ⭐
 
