@@ -137,3 +137,10 @@ Aspiring Software Developer
 
 Give this repository a star ⭐
 
+## 🔮 Future Improvements
+
+* AI-generated personalized questions
+* Resume-based interview generation
+* Voice-based interview interaction
+* NLP answer evaluation
+
