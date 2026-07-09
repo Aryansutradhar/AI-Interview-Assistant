@@ -1,8 +1,6 @@
-[![Live App](https://img.shields.io/badge/Streamlit-Live_App-red)](https://ai-interview-assistant-kvaozgetcd3xjwtnorws7b.streamlit.app/)
-
 # 🤖 AI Interview Assistant
 
-A smart interview preparation platform built with Python and Streamlit that helps users practice technical interviews with automated evaluation and performance feedback.
+A smart interview preparation platform built with **Python** and **Streamlit** that helps users practice technical interviews with automated evaluation, performance feedback, and downloadable interview reports.
 
 ---
 
@@ -14,50 +12,67 @@ https://ai-interview-assistant-kvaozgetcd3xjwtnorws7b.streamlit.app/
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-* 🎯 Multiple job roles
-    * Python Developer
-    * Web Developer
-    * Data Scientist
-    * Cloud Engineer
-
-* 📚 Multiple difficulty levels
-    * Easy
-    * Medium
-    * Hard
-
-* 🎲 Randomized interview questions
-
-* 📊 Automatic answer scoring
-
-* 📈 Confidence score calculation
-
-* 📌 Strengths and weaknesses analysis
-
-* 📝 Performance feedback system
-
-* 📥 Download interview report (CSV)
-
-* 🎈 Interactive UI experience
+- 🏢 Company selection
+- 💼 Multiple job roles
+  - Python Developer
+  - Web Developer
+  - Data Scientist
+  - Cloud Engineer
+- 📚 Multiple difficulty levels
+  - Easy
+  - Medium
+  - Hard
+- 🎯 Interview round selection
+  - Technical
+  - HR
+  - Aptitude
+- 🎲 Random interview question generation
+- 📊 Automatic answer evaluation
+- 📈 Performance score calculation
+- 💪 Strengths and weaknesses analysis
+- 📝 Interview summary
+- 📥 Download interview report (CSV)
+- 🎈 Interactive Streamlit interface
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-* Python
-* Streamlit
-* Pandas
+- Python
+- Streamlit
+- Pandas
 
 ---
 
-## 📦 Installation
+# 📂 Project Structure
 
-Clone repository:
+```text
+AI_Interview_Assistant/
+
+├── app.py               # Main Streamlit Application
+├── questions.py         # Interview Questions
+├── keywords.py          # Technical Keywords
+├── evaluation.py        # Answer Evaluation System
+├── report.py            # Report Generator
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 📦 Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/aryansutradhar/ai-interview-assistant.git
+```
 
+Go to the project folder:
+
+```bash
 cd ai-interview-assistant
 ```
 
@@ -67,80 +82,99 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run application:
+Run the application:
 
 ```bash
 streamlit run app.py
 ```
 
----
+or
 
-## 📂 Project Structure
-
-```text
-AI_Interview_Assistant/
-
-├── app.py
-├── requirements.txt
-├── README.md
+```bash
+python -m streamlit run app.py
 ```
 
 ---
 
-## 🎯 How It Works
+# 🎯 How It Works
 
-1. Select a job role
-2. Select difficulty level
-3. Start interview
-4. Answer generated questions
-5. Submit answers
-6. Receive:
-
-   * Performance score
-   * Confidence percentage
-   * Strengths analysis
-   * Weakness analysis
-   * Interview report download
-
----
-
-## 💡 Project Highlights
-
-* Built with a modular structure
-* Random question generation
-* Rule-based answer evaluation
-* Performance analytics
-* User-friendly interface
-* Real-time feedback
+1. Select a company.
+2. Choose your job role.
+3. Select interview difficulty.
+4. Choose interview round.
+5. Start the interview.
+6. Answer the questions.
+7. Submit your answers.
+8. Receive:
+   - Interview score
+   - Accuracy percentage
+   - Performance feedback
+   - Strengths
+   - Weaknesses
+   - Downloadable interview report
 
 ---
 
-## 🔮 Future Improvements
+# 📊 Evaluation System
 
-* Resume-based interview generation
-* Voice interview support
-* AI-generated personalized questions
-* Advanced NLP answer evaluation
-* Analytics dashboard
+The application evaluates answers based on:
 
----
-
-## 👨‍💻 Author
-
-**Aryan Sutradhar** 🚀
-
-Aspiring Software Developer
+- Answer length
+- Technical keyword matching
+- Overall performance score
+- Accuracy percentage
 
 ---
 
-## ⭐ If you like this project
+# 📥 Report Generation
 
-Give this repository a star ⭐
+After completing an interview, users can download a CSV report containing:
 
-## 🔮 Future Improvements
+- Company
+- Role
+- Interview Round
+- Difficulty Level
+- Questions
+- User Answers
+- Performance Summary
 
-* AI-generated personalized questions
-* Resume-based interview generation
-* Voice-based interview interaction
-* NLP answer evaluation
+---
+
+# 💡 Project Highlights
+
+- Modular Python architecture
+- Clean project structure
+- Randomized interview questions
+- Rule-based evaluation system
+- Performance analytics
+- Interactive Streamlit UI
+- Beginner-friendly design
+
+---
+
+# 🔮 Future Improvements
+
+- 🤖 AI-generated interview questions
+- 📄 Resume-based interview generation
+- 🎤 Voice-based interview system
+- 🔊 Text-to-Speech interviewer
+- 🎙️ Speech-to-Text answer evaluation
+- 🧠 NLP-based answer analysis
+- 📊 Analytics dashboard
+- 👤 User login and interview history
+- 🌐 FastAPI backend integration
+
+---
+
+# 👨‍💻 Author
+
+**Aryan Sutradhar**
+
+Aspiring Software Developer | Python Developer | AI & Machine Learning Enthusiast 🚀
+
+---
+
+# ⭐ If you like this project
+
+Please consider giving this repository a ⭐ on GitHub.
 
